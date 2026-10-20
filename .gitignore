@@ -1,0 +1,34 @@
+# 本地开发环境
+.idea/
+.vscode/
+*.iml
+local.properties
+**/local.properties
+.DS_Store
+Thumbs.db
+
+# Gradle 与 Android 构建缓存
+.gradle/
+**/.gradle/
+.kotlin/
+**/.kotlin/
+**/build/
+.externalNativeBuild/
+**/.externalNativeBuild/
+.cxx/
+**/.cxx/
+
+# 构建产物与本机签名材料
+*.apk
+*.aab
+*.apks
+*.jks
+*.keystore
+keystore.properties
+**/keystore.properties
+.env
+.env.*
+
+# 不阻止提交构建必需的 Gradle Wrapper JAR
+!gradle/wrapper/gradle-wrapper.jar
+!src/gradle/wrapper/gradle-wrapper.jar
